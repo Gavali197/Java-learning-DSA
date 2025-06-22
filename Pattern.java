@@ -59,18 +59,41 @@ public class Pattern {
 
         // inverted half piramint (rotated by 180 deg)
         
-        int n=4;
-        for(int i = 1; i<= n; i++){
-            for(int j = 1; j <= n-i; j++){
-                System.out.print(" ");
-            }
+        // int n=4;
+        // for(int i = 1; i<= n; i++){
+        //     for(int j = 1; j <= n-i; j++){
+        //         System.out.print(" ");
+        //     }
 
-            for(int j = 1; j<=i; j++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+        //     for(int j = 1; j<=i; j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+        // number pattern rows
+
+        // int n = 5;
+
+        // for(int i = 1; i<=n; i++){
+        //     for(int j=1; j<=i; j++){
+        //         System.out.print(j + " ");
+        //     }
+        //     System.out.println(" ");
+        // }
+
+        // half piramint pattern in number inverted
+
+        // int n=5;
+
+        // for(int i=n; i>=1; i--){
+        //     for(int j= 1; j <=i; j++){
+        //         System.out.print(j);
+        //     }
+        //     System.out.println(" ");
+        // }
     
+        
 
     }
 }
