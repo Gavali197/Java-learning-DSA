@@ -1,9 +1,35 @@
 
+import java.util.Scanner;
+
+
+
+
 
 public class PracticeSet2 {
+
+    static void AvgNum(Scanner sc){
+         System.out.print("Enter 3 Number : ");
+         int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt();
+         double avg = (a+b+c) / 3.0;
+         System.out.println("average " + avg);
+    }
+
+    static  void OddSum(Scanner sc){
+        for (int i = 0; i < 10; i++) {
+         if(a){
+
+         }   
+        }
+    }
+
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
         // 1 Enter 3 numbers from the user & make a function to print their average.
+        AvgNum(sc);
+
         // 2 Write a function to print the sum of all odd numbers from 1 to n.
+        
         // 3 Write a function which takes in 2 numbers and returns the greater of those two.
         // 4 Write a function that takes in the radius as input and returns the circumference of a circle.
         // 5 Write a function that takes in age as input and returns if that person is eligible to vote or not. A person of age > 18 is eligible to vote.
@@ -18,5 +44,7 @@ public class PracticeSet2 {
 
 
 
+
     }
 }
+
