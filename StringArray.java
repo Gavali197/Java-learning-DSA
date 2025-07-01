@@ -10,3 +10,4 @@ public class StringArray {
         System.out.println(Hemant.substring(16,32)); //use for subSTring
     }
 }
+ 
