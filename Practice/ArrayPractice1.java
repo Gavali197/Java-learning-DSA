@@ -13,9 +13,7 @@ public class ArrayPractice1 {
 
         
 
-        while (left < right) { 
-            swap(array[left], array[right]);
-        }
+     
 
 
         // for (int num : array) {
