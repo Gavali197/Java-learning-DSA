@@ -1,6 +1,6 @@
-public class Recrusion {
+public class SumPrintNum {
+    public static void SumNum()
     public static void main(String[] args) {
-     // start recrusion   
         
     }
 }
