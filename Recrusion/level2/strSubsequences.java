@@ -2,7 +2,8 @@ package Recrusion.level2;
 
 public class strSubsequences {
 
-    //mobile key pad matching combination quetion quetion 
+    //mobile key pad matching combination quetion quetion (17. Letter Combinations of a Phone Number
+    // [leetcode] https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
     public static String keypad[] = {".", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tu", "vwx", "yz"};
 
     public static void printCombo(String newString, String str, int idx) {
