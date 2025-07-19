@@ -36,8 +36,28 @@ public class CodeingBat {
 
     }
 
+// QUETION 2 COUNT WORD(HI)
+// Given a string, compute recursively (no loops) the number of times lowercase "hi" appears in the string.
+// countHi("xxhixx") → 1
+// countHi("xhixhix") → 2
+// countHi("hi") → 1
+    public static int countHi(String str) {
+        // Base case: if the string is too short to contain "hi"
+        if (str.length() < 2) {
+            return 0;
+        }
+// If the first two characters are "hi"
+        if (str.substring(0, 2).equals("hi")) {
+            return 1 + countHi(str.substring(2));   // Move ahead by 2 to avoid overlap
+        } else {
+            return countHi(str.substring(1));   // Move ahead by 1
+        }
+
+    }
+
     public static void main(String[] args) {
-        String str = "xxxabcxx";
-        xCount(0, 0, str);
+        String str = "xhibcvemhi";
+        int result = countHi(str);
+        System.out.println(result);
     }
 }
