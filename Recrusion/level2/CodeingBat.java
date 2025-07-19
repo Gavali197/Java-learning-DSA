@@ -36,6 +36,22 @@ public class CodeingBat {
 
     }
 
+    //same code try use for loop
+    public static void countXusefor(){
+                String str = "xhibcvemhi";
+        int count = 0;
+        for(int i = 0; i < str.length(); i++){
+            if(str.charAt(i) == 'x'){
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+
+
+
+
+
 // QUETION 2 COUNT WORD(HI)
 // Given a string, compute recursively (no loops) the number of times lowercase "hi" appears in the string.
 // countHi("xxhixx") → 1
@@ -55,9 +71,11 @@ public class CodeingBat {
 
     }
 
+
+
+
+
     public static void main(String[] args) {
-        String str = "xhibcvemhi";
-        int result = countHi(str);
-        System.out.println(result);
+
     }
 }
