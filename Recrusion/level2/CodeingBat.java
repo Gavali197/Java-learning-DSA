@@ -116,6 +116,10 @@ public class CodeingBat {
         }
     }
 
+
+
+// QUETION 6 FIND IN ARRAY 6 
+
     public static void main(String[] args) {
 
     }
