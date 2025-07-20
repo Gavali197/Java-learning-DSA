@@ -37,20 +37,16 @@ public class CodeingBat {
     }
 
     //same code try use for loop
-    public static void countXusefor(){
-                String str = "xhibcvemhi";
+    public static void countXusefor() {
+        String str = "xhibcvemhi";
         int count = 0;
-        for(int i = 0; i < str.length(); i++){
-            if(str.charAt(i) == 'x'){
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == 'x') {
                 count++;
             }
         }
         System.out.println(count);
     }
-
-
-
-
 
 // QUETION 2 COUNT WORD(HI)
 // Given a string, compute recursively (no loops) the number of times lowercase "hi" appears in the string.
@@ -71,6 +67,24 @@ public class CodeingBat {
 
     }
 
+// QUETION 3 CHANGE XY IN STRING
+
+// Given a string, compute recursively (no loops) a new string where all the lowercase 'x' chars have been changed to 'y' chars.
+// changeXY("codex") → "codey"
+// changeXY("xxhixx") → "yyhiyy"
+// changeXY("xhixhix") → "yhiyhiy"
+    
+    public String changeXY(String str) {
+        if (str.length() == 0) {
+            return "";
+        }
+        char currChar = str.charAt(0);
+        if (currChar == 'x') {
+            return 'y' + changeXY(str.substring(1));
+        } else {
+            return currChar + changeXY(str.substring(1));
+        }
+    }
 
 
 
