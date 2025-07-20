@@ -68,12 +68,10 @@ public class CodeingBat {
     }
 
 // QUETION 3 CHANGE XY IN STRING
-
 // Given a string, compute recursively (no loops) a new string where all the lowercase 'x' chars have been changed to 'y' chars.
 // changeXY("codex") → "codey"
 // changeXY("xxhixx") → "yyhiyy"
 // changeXY("xhixhix") → "yhiyhiy"
-    
     public String changeXY(String str) {
         if (str.length() == 0) {
             return "";
@@ -86,10 +84,22 @@ public class CodeingBat {
         }
     }
 
-
-
+// QUETION 4 CHANGE PI 
+//Given a string, compute recursively (no loops) a new string where all appearances of "pi" have been replaced by "3.14".
+// changePi("xpix") → "x3.14x"
+// changePi("pipi") → "3.143.14"
+// changePi("pip") → "3.14p"
+    public static String changePi(String str) {
+        if (str.length() < 2) {
+            return str;
+        }
+        if (str.substring(0, 2).equals("pi")) {
+            return "3.14" + changePi(str.substring(2));
+        }
+        return str.charAt(0) + changePi(str.substring(1));
+    }
 
     public static void main(String[] args) {
-
+        System.out.println(changePi("abpigh"));
     }
 }
