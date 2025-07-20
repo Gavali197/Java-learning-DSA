@@ -99,8 +99,22 @@ public class CodeingBat {
         return str.charAt(0) + changePi(str.substring(1));
     }
 
-
-// QUETION 5 
+// QUETION 5 remove X (no X)
+// Given a string, compute recursively a new string where all the 'x' chars have been removed.
+// noX("xaxb") → "ab"
+// noX("abc") → "abc"
+// noX("xx") → ""
+    public String noX(String str) {
+        if (str.isEmpty()) {
+            return "";
+        }
+        char currChar = str.charAt(0);
+        if (currChar == 'x') {
+            return noX(str.substring(1));
+        } else {
+            return currChar + noX(str.substring(1));
+        }
+    }
 
     public static void main(String[] args) {
 
