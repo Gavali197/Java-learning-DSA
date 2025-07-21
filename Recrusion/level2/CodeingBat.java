@@ -154,8 +154,18 @@ public class CodeingBat {
         return count + array11(nums, index + 1);
     }
 
+    // SAME QUETION SOVLE WITH OUT COUNT VERIABLE 
 
-    
+    public int array11Count(int[] nums, int index) {
+        if(nums[index] == 11){
+            return 1 + array11(nums, index+1);
+        }else{
+            return array11(nums, index+1);
+        }
+    }
+
+
+
 
     public static void main(String[] args) {
 
