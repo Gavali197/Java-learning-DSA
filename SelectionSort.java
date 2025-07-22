@@ -1,13 +1,13 @@
 
 public class SelectionSort {
 
-    static void SelectionSortArr(){
-        int arr[] = {16,15, 1, 2 , 8, 10, 9};
+    static void SelectionSortArr() {
+        int arr[] = {16, 15, 1, 2, 8, 10, 9};
 
-        for(int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             int small = i;
-            for(int j = i +1; j < arr.length; j++){
-                if(arr[small] > arr[j]){
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[small] > arr[j]) {
                     small = j;
                 }
             }
@@ -15,7 +15,7 @@ public class SelectionSort {
             arr[small] = arr[i];
             arr[i] = temp;
         }
-        for(int i =0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             System.out.print(" " + arr[i]);
         }
     }
@@ -35,7 +35,7 @@ public class SelectionSort {
             arr[i] = temp;
         }
 
-        for(int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
 
