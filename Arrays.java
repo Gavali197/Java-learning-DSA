@@ -1,7 +1,3 @@
-
-
-
-
 public class Arrays {
     public static void main(String[] args) {
         int myArray[] = new int[3]; //init java array

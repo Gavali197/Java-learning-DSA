@@ -26,9 +26,8 @@ public class ArrayPractice1 {
     }
 
     // 2. Write a program to calculate the sum of all elements in an array.
-
     static void SumArray(Scanner sc) {
-        int arr[] = { 24, 25, 26 };
+        int arr[] = {24, 25, 26};
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
             sum = arr[i] + sum;
@@ -57,13 +56,13 @@ public class ArrayPractice1 {
 
     }
 
-    static void Fibonacci(Scanner sc){
+    static void Fibonacci(Scanner sc) {
         // System.out.println("Enter the how many number print in fibbonacci serius : ");
         int n = 10;
         int a = 0;
         int b = 1;
-        for(int i = 2; i < n; i++){
-            System.out.println( a + " ");
+        for (int i = 2; i < n; i++) {
+            System.out.println(a + " ");
             int temp = a + b;
             a = b;
             b = temp;
@@ -76,4 +75,3 @@ public class ArrayPractice1 {
 
     }
 }
-

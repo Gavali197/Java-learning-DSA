@@ -12,6 +12,7 @@ public class CountTilesWay {
         //vertically place tiles
         int vertically = countWay(n-m, m);
         //horizontally place tiles 
+        
         int horizontally = countWay(n-1, m);
 
         return vertically + horizontally;
