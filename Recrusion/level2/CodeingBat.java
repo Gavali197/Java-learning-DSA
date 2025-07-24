@@ -2,6 +2,9 @@ package Recrusion.level2;
 
 public class CodeingBat {
 
+
+
+    
 // QUETION 1 COUNT X 
 // Given a string, compute recursively (no loops) the number of lowercase 'x' chars in the string.
 // countX("xxhixx") → 4
@@ -48,6 +51,11 @@ public class CodeingBat {
         System.out.println(count);
     }
 
+
+
+
+
+
 // QUETION 2 COUNT WORD(HI)
 // Given a string, compute recursively (no loops) the number of times lowercase "hi" appears in the string.
 // countHi("xxhixx") → 1
@@ -67,7 +75,12 @@ public class CodeingBat {
 
     }
 
-// QUETION 3 CHANGE XY IN STRING
+
+
+
+
+
+    // QUETION 3 CHANGE XY IN STRING
 // Given a string, compute recursively (no loops) a new string where all the lowercase 'x' chars have been changed to 'y' chars.
 // changeXY("codex") → "codey"
 // changeXY("xxhixx") → "yyhiyy"
@@ -84,7 +97,14 @@ public class CodeingBat {
         }
     }
 
-// QUETION 4 CHANGE PI 
+
+
+
+
+
+
+
+    // QUETION 4 CHANGE PI 
 //Given a string, compute recursively (no loops) a new string where all appearances of "pi" have been replaced by "3.14".
 // changePi("xpix") → "x3.14x"
 // changePi("pipi") → "3.143.14"
@@ -99,7 +119,12 @@ public class CodeingBat {
         return str.charAt(0) + changePi(str.substring(1));
     }
 
-// QUETION 5 remove X (no X)
+
+
+
+
+
+    // QUETION 5 remove X (no X)
 // Given a string, compute recursively a new string where all the 'x' chars have been removed.
 // noX("xaxb") → "ab"
 // noX("abc") → "abc"
@@ -116,7 +141,13 @@ public class CodeingBat {
         }
     }
 
-// QUETION 6 FIND IN ARRAY 6 
+
+
+
+
+
+
+    // QUETION 6 FIND IN ARRAY 6 
 // Given an array of ints, compute recursively if the array contains a 6. We'll use the convention of considering only the part of the array that begins at the given index. In this way, a recursive call can pass index+1 to move down the array. The initial call will pass in index as 0.
 // array6([1, 6, 4], 0) → true
 // array6([1, 4], 0) → false
@@ -135,6 +166,10 @@ public class CodeingBat {
         // Recurse on the next index
         return array6(nums, index + 1);
     }
+
+
+
+
 
     // QUETION 7 COUNT 11 HOW MANY TIME ARRAY COUNT 
 // Given an array of ints, compute recursively the number of times that the value 11 appears in the array. We'll use the convention of considering only the part of the array that begins at the given index. In this way, a recursive call can pass index+1 to move down the array. The initial call will pass in index as 0.
@@ -168,6 +203,10 @@ public class CodeingBat {
 
 
 
+
+
+
+
     // QUETION 7 ARRAY 220
     
 // Given an array of ints, compute recursively if the array contains somewhere a value followed in the array by that value times 10. We'll use the convention of considering only the part of the array that begins at the given index. In this way, a recursive call can pass index+1 to move down the array. The initial call will pass in index as 0.
@@ -190,6 +229,10 @@ public class CodeingBat {
 
 
 
+
+
+
+
 //QUETION 8 ALLSTAR
 // Given a string, compute recursively a new string where all the adjacent chars are now separated by a "*".
 
@@ -205,6 +248,11 @@ public class CodeingBat {
   }
   return str.charAt(0) + "*" + allStar(str.substring(1));
 }
+
+
+
+
+
 
 // QUETION 9 PAIR STAR
     
