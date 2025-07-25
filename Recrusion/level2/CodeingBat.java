@@ -275,6 +275,28 @@ public class CodeingBat {
 
 
 
+  
+// Given a string, compute recursively a new string where all the lowercase 'x' chars have been moved to the end of the string.
+// endX("xxre") → "rexx"
+// endX("xxhixx") → "hixxxx"
+// endX("xhixhix") → "hihixxx"
+
+
+public String endX(String str) {
+  if(str.length() <= 1){
+    return str;
+  }
+  char frist = str.charAt(0);
+  String rest = endX(str.substring(1));
+  if(frist == 'x'){
+    return rest + 'x';
+  }else{
+    return frist + rest;
+  }
+}
+
+
+
     public static void main(String[] args) {
 
     }
