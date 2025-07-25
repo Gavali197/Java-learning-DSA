@@ -275,6 +275,7 @@ public class CodeingBat {
 
 
 
+// QUETION 10 MOVE X END
   
 // Given a string, compute recursively a new string where all the lowercase 'x' chars have been moved to the end of the string.
 // endX("xxre") → "rexx"
