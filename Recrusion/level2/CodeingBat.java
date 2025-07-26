@@ -320,7 +320,7 @@ public int countPairs(String str) {
 
 
 
-
+// QUETION 12 COUNT ABC
 
 // Count recursively the total number of "abc" and "aba" substrings that appear in the given string.
 // countAbc("abc") → 1
@@ -341,7 +341,7 @@ public int countPairs(String str) {
     }
 
 
-
+// QUETION 13 COUNT11
     
 // Given a string, compute recursively (no loops) the number of "11" substrings in the string. The "11" substrings should not overlap.
 
