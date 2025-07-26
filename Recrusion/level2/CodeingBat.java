@@ -299,7 +299,8 @@ public String endX(String str) {
 
 
 
-    
+// QUETION 11 COUNT PAIRS
+
 // We'll say that a "pair" in a string is two instances of a char separated by a char. So "AxA" the A's make a pair. Pair's can overlap, so "AxAxA" contains 3 pairs -- 2 for A and 1 for x. Recursively compute the number of pairs in the given string.
 // countPairs("axa") → 1
 // countPairs("axax") → 2
@@ -317,6 +318,27 @@ public int countPairs(String str) {
   }
 }
 
+
+
+
+
+// Count recursively the total number of "abc" and "aba" substrings that appear in the given string.
+// countAbc("abc") → 1
+// countAbc("abcxxabc") → 2
+// countAbc("abaxxaba") → 2
+
+
+    public int countAbc(String str) {
+        if(str.length() < 3){
+            return 0;
+        }
+       String sub = str.substring(0,3);
+       if(sub.equals("abc") || sub.equals("aba")){
+        return 1 + countAbc(str.substring(1));
+       }else{
+        return countAbc(str.substring(1));
+       }
+    }
 
 
 
