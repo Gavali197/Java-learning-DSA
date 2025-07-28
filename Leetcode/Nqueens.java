@@ -1,4 +1,4 @@
-
+package Leetcode; 
 import java.util.ArrayList;
 import java.util.List;
 
@@ -103,7 +103,7 @@ public class Nqueens {
 
     // Optional: for testing purpose
     public static void main(String[] args) {
-        NQueens solver = new NQueens();
+        Nqueens solver = new Nqueens();
         int n = 4;
         List<List<String>> solutions = solver.solveNQueens(n);
 
