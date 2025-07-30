@@ -1,7 +1,7 @@
 package Leetcode;
 
 public class Sudoku {
-
+        
     public boolean isSafe(char board[][], int row, int col, int number) {
         //column ke liye
         for (int i = 0; i < board.length; i++) {
@@ -70,7 +70,8 @@ public class Sudoku {
         return false; // No valid number found
     }
 
-    public static void main(String[] args) {
-
+    public void solveSudoku(char[][] board) {
+        helper(board, 0, 0);
     }
 }
+
