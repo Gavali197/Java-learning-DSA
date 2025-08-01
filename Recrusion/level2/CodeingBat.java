@@ -310,6 +310,38 @@ public class CodeingBat {
         return count + numJewelsInStones(jewels, stones.substring(1));
     }
 
+
+
+
+    
+// Given a string, compute recursively the number of times lowercase "hi" appears in the string, however do not count "hi" that have an 'x' immedately before them.
+
+
+// countHi2("ahixhi") → 1
+// countHi2("ahibhi") → 2
+// countHi2("xhixhi") → 0
+
+public int countHi2(String str) {
+    if (str.length() < 2) {
+        return 0;
+    }
+
+    // Case: if there's "hi" at index 1 and it's preceded by 'x'
+    if (str.length() >= 3 && str.charAt(0) == 'x' && str.substring(1, 3).equals("hi")) {
+        return countHi2(str.substring(3)); // Skip "xhi"
+    }
+
+    // Case: if it starts with "hi" and no 'x' before it
+    if (str.substring(0, 2).equals("hi")) {
+        return 1 + countHi2(str.substring(2)); // Count and move 2
+    }
+
+    // Else move forward by 1
+    return countHi2(str.substring(1));
+}
+
+
+
     public static void main(String[] args) {
 
     }
