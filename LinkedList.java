@@ -1,5 +1,7 @@
 import java.util.*;
 
+
+//TRY TO SCARATCH IMPLEMENTATION 
 public class LinkedList {
 
     // ======= SCRATCH IMPLEMENTATION =======
@@ -66,6 +68,7 @@ public class LinkedList {
                 }
                 currNode = currNode.next;
             }
+             
         }
 
         // Remove first
