@@ -1,4 +1,5 @@
 public class Backtracking {
+    //analysis backtracking
     public static void backtrack(String str, String permu, int idx){
         if(str.length() == 0){
             System.out.println(permu);
