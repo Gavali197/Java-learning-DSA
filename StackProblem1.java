@@ -21,7 +21,7 @@ public class StackProblem1 {
         pushAtBottom(stack, 4);
 
         while(!stack.isEmpty()) {
-            System.out.println(stack.pop());
+            System.out.print(stack.pop());
         }
     }
 }
