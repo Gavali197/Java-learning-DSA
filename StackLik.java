@@ -1,6 +1,6 @@
 
 //stack using Linked List
-public class StackDS {
+public class StackLik{
     private static class Node {
         int data;
         Node next;
