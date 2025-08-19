@@ -1,0 +1,358 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListQue",
+            "request": "launch",
+            "mainClass": "ArrayListQue",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPractice1",
+            "request": "launch",
+            "mainClass": "ArrayPractice1",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist",
+            "request": "launch",
+            "mainClass": "Arraylist",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "Arrays",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "Backtracking",
+            "request": "launch",
+            "mainClass": "Backtracking",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "BreakContin",
+            "request": "launch",
+            "mainClass": "BreakContin",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "CalcStackHeight",
+            "request": "launch",
+            "mainClass": "CalcStackHeight",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "CalcStackHeightLogN",
+            "request": "launch",
+            "mainClass": "CalcStackHeightLogN",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "DataType",
+            "request": "launch",
+            "mainClass": "DataType",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "FactorialCount",
+            "request": "launch",
+            "mainClass": "FactorialCount",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "Ifelse",
+            "request": "launch",
+            "mainClass": "Ifelse",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "Nqueens",
+            "request": "launch",
+            "mainClass": "Leetcode.Nqueens",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "Loops",
+            "request": "launch",
+            "mainClass": "Loops",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "Pattern",
+            "request": "launch",
+            "mainClass": "Pattern",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "PracticeSet1",
+            "request": "launch",
+            "mainClass": "PracticeSet1",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "PracticeSet2",
+            "request": "launch",
+            "mainClass": "PracticeSet2",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "PrintNum",
+            "request": "launch",
+            "mainClass": "PrintNum",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "Recrusion",
+            "request": "launch",
+            "mainClass": "Recrusion",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "CodeingBat",
+            "request": "launch",
+            "mainClass": "Recrusion.level2.CodeingBat",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "FristLastOccurance",
+            "request": "launch",
+            "mainClass": "Recrusion.level2.FristLastOccurance",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "MoveEndOfX",
+            "request": "launch",
+            "mainClass": "Recrusion.level2.MoveEndOfX",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "RemoveString",
+            "request": "launch",
+            "mainClass": "Recrusion.level2.RemoveString",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "StrReverse",
+            "request": "launch",
+            "mainClass": "Recrusion.level2.StrReverse",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "StrictlySort",
+            "request": "launch",
+            "mainClass": "Recrusion.level2.StrictlySort",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "Recrusion.level2.TowerOfHanoi",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "strSubsequences",
+            "request": "launch",
+            "mainClass": "Recrusion.level2.strSubsequences",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "CountTilesWay",
+            "request": "launch",
+            "mainClass": "Recrusion.level3.CountTilesWay",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "MatrixMoveCount",
+            "request": "launch",
+            "mainClass": "Recrusion.level3.MatrixMoveCount",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "Permutations",
+            "request": "launch",
+            "mainClass": "Recrusion.level3.Permutations",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "codeingBat",
+            "request": "launch",
+            "mainClass": "Recrusion.level3.codeingBat",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "pairCountGuest",
+            "request": "launch",
+            "mainClass": "Recrusion.level3.pairCountGuest",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "Skilltest",
+            "request": "launch",
+            "mainClass": "Skilltest",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "Skilltest1",
+            "request": "launch",
+            "mainClass": "Skilltest1",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "StackJCF",
+            "request": "launch",
+            "mainClass": "StackJCF",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "StackLik",
+            "request": "launch",
+            "mainClass": "StackLik",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "StackProblem1",
+            "request": "launch",
+            "mainClass": "StackProblem1",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "StackProblem2",
+            "request": "launch",
+            "mainClass": "StackProblem2",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "StringArray",
+            "request": "launch",
+            "mainClass": "StringArray",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "StringPractice1",
+            "request": "launch",
+            "mainClass": "StringPractice1",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "SumPrintNum",
+            "request": "launch",
+            "mainClass": "SumPrintNum",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "SwitchCase",
+            "request": "launch",
+            "mainClass": "SwitchCase",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "insertationSort",
+            "request": "launch",
+            "mainClass": "insertationSort",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "math",
+            "request": "launch",
+            "mainClass": "math",
+            "projectName": "java practice & learn_472adc7d"
+        },
+        {
+            "type": "java",
+            "name": "powerN",
+            "request": "launch",
+            "mainClass": "powerN",
+            "projectName": "java practice & learn_472adc7d"
+        }
+    ]
+}
