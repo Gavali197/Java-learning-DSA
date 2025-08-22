@@ -1,12 +1,13 @@
-
 public class TakeUpForward {
-    
     public static void main(String[] args) {
-        int n = 1234;
+        int n = 12345;   // Example input
         int count = 0;
-        for(int i = 0; i < n; i++){
-            count = i;
+
+        while (n > 0) {
+            n = n / 10;   // remove last digit
+            count++;      // increase digit count
         }
-        System.out.println(count);
+
+        System.out.println(count);  // Output: 5
     }
 }
