@@ -41,6 +41,27 @@ class linked{
         return -1;
     }
 
+    public void delete(int key){
+        node temp = head;
+        node prev = null;
+
+        if(temp != null && temp.data == key){
+            head = temp.next;
+            return;
+        }
+
+        if(temp == null){
+            System.out.println("value not found ");
+            return;
+        }
+
+        while (temp != null && temp.data != key) { 
+            prev = temp;
+            temp = temp.next;
+        }
+        prev.next = temp.next;
+        
+    }
 
     public void Print(){
         node currNode = head;
@@ -56,11 +77,13 @@ class linked{
 class LinkedList{
     public static void main(String[] args) {
         linked list = new linked();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 50; i++) {
             list.add(i);
         }
+        System.out.println("Original Linkelist :- ");
         list.Print();
-
+        
         System.out.println("find index : " + list.find(978));
+        
     }
 }
