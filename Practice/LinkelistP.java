@@ -72,6 +72,7 @@ public class LinkelistP {
         list.push(30);
         list.push(40);
         list.push(50);
+        list.push(5);
 
         System.out.println("Original List : ");
         list.PrintNum();
