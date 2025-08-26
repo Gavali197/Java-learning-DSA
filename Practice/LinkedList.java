@@ -27,13 +27,28 @@ class linked{
         currNode.next = newNode;
     }
 
+    public int find(int val){
+        node temp = head;
+        int idx = 0;
+
+        while (temp != null) { 
+            if(temp.data == val){
+                return idx;
+            }
+            idx++;
+            temp = temp.next;
+        }
+        return -1;
+    }
+
+
     public void Print(){
         node currNode = head;
         while (currNode != null) {
             System.out.print(currNode.data + " -> ");
             currNode = currNode.next;
         }
-        System.out.print("null");
+        System.out.println("null");
     }
 
 }
@@ -45,5 +60,7 @@ class LinkedList{
             list.add(i);
         }
         list.Print();
+
+        System.out.println("find index : " + list.find(978));
     }
 }
