@@ -29,7 +29,7 @@ class linked{
     }
 
     //count even number
-    public void even(){
+    public int even(){
         int count = 0;
         node currNode = head;
 
@@ -39,6 +39,7 @@ class linked{
             }
             currNode = currNode.next;
         }
+        return count;
     }
 
     public void print(){
@@ -61,5 +62,9 @@ public class CountEven {
         list.add(3);
 
         list.print();
+
+        int coountEven = list.even();   
+        System.out.println("this is total even number : " + coountEven); 
     }
+
 }
