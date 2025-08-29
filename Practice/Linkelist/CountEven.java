@@ -28,6 +28,19 @@ class linked{
         currnode.next = newNode;
     }
 
+    //count even number
+    public void even(){
+        int count = 0;
+        node currNode = head;
+
+        while (currNode != null) {
+            if(currNode.data % 2 == 0){
+                count++;
+            }
+            currNode = currNode.next;
+        }
+    }
+
     public void print(){
         node currNode = head;
         while (currNode != null) {
