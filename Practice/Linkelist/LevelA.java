@@ -1,6 +1,7 @@
 package Linkelist;
 
 // Node class
+
 class Node {
     int data;
     Node next;
@@ -14,6 +15,12 @@ class Node {
 // LinkedList class
 class MyLinkedList {
     Node head;
+
+    public void addFr(int data){
+        Node newNode = new Node(data);
+        newNode.next = head;
+        head = newNode;
+    }
 
     // Add a node at the end
     public void addLast(int data) {
@@ -51,6 +58,11 @@ public class LevelA {
         list.addLast(3);
         list.addLast(4);
 
+
+
+        //add frist element one by one
+
+        list.addFr(6);
         list.printList();  // Output: 1->2->3->4->null
     }
 }
