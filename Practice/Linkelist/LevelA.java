@@ -1,45 +1,56 @@
 package Linkelist;
 
-class node{
+// Node class
+class Node {
     int data;
-    node next;
+    Node next;
 
-        node(int data){
-            this.data = data;
-            this.next = null;
-        }
+    Node(int data) {
+        this.data = data;
+        this.next = null;
+    }
 }
 
-class linked{
-    node head;
-    public void addlast(int data){
-        node newNode = new node(data);
-        if(head == null){
+// LinkedList class
+class MyLinkedList {
+    Node head;
+
+    // Add a node at the end
+    public void addLast(int data) {
+        Node newNode = new Node(data);
+        if (head == null) {
             head = newNode;
             return;
         }
 
-        node currNode = head;
-
+        Node currNode = head;
         while (currNode.next != null) {
             currNode = currNode.next;
         }
         currNode.next = newNode;
     }
 
-    public void print(){
-        node currNode = head;
-
+    // Print linked list
+    public void printList() {
+        Node currNode = head;
         while (currNode != null) {
-            System.out.println(currNode.data + "->");
+            System.out.print(currNode.data + "->");
             currNode = currNode.next;
         }
         System.out.println("null");
     }
 }
 
+// Main class
 public class LevelA {
     public static void main(String[] args) {
-     System.out.println("null");   
+        MyLinkedList list = new MyLinkedList();
+
+        list.addLast(1);
+        list.addLast(2);
+        list.addLast(3);
+        list.addLast(4);
+
+        list.printList();  // Output: 1->2->3->4->null
     }
 }
