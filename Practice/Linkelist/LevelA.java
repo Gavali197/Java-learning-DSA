@@ -22,6 +22,8 @@ class MyLinkedList {
         head = newNode;
     }
 
+    
+
     // Add a node at the end
     public void addLast(int data) {
         Node newNode = new Node(data);
