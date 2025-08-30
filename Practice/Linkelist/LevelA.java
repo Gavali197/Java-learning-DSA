@@ -33,13 +33,15 @@ class MyLinkedList {
         return count;
     }
 
-    public boo find(int key){
+    public boolean find(int key){
         Node currNode = head;
         while (currNode != null) {
             if(currNode.data == key){
-
+                return true;
             }
+            currNode = currNode.next;
         }
+        return false;
     }
 
     // Add a node at the end
@@ -87,6 +89,7 @@ public class LevelA {
         int nums = list.size();
         System.out.println(nums);
         list.printList();  // Output: 1->2->3->4->null
-        
+       boolean find = list.find(2); 
+       System.out.println(find);      
     }
 }
