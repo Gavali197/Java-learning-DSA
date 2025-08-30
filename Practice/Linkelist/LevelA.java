@@ -21,6 +21,7 @@ class MyLinkedList {
         newNode.next = head;
         head = newNode;
     }
+
     //count nodes
     public int size(){
         int count = 0;
@@ -30,6 +31,15 @@ class MyLinkedList {
             count++;
         }
         return count;
+    }
+
+    public boo find(int key){
+        Node currNode = head;
+        while (currNode != null) {
+            if(currNode.data == key){
+
+            }
+        }
     }
 
     // Add a node at the end
