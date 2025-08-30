@@ -21,8 +21,16 @@ class MyLinkedList {
         newNode.next = head;
         head = newNode;
     }
-
-    
+    //count nodes
+    public int size(){
+        int count = 0;
+        Node currNode = head;
+        while (currNode.next != null) { 
+            currNode = currNode.next;
+            count++;
+        }
+        return count;
+    }
 
     // Add a node at the end
     public void addLast(int data) {
@@ -65,6 +73,10 @@ public class LevelA {
         //add frist element one by one
 
         list.addFr(6);
+
+        int nums = list.size();
+        System.out.println(nums);
         list.printList();  // Output: 1->2->3->4->null
+        
     }
 }
