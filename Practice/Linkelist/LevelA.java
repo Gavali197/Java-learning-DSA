@@ -60,6 +60,12 @@ class MyLinkedList {
         currNode.next = newNode;
     }
 
+    //USE FOR REVERSE LINKELIST
+    public void Reverse(){
+        Node prev = head;
+    }
+
+
     // Print linked list
     public void printList() {
         Node currNode = head;
@@ -73,10 +79,7 @@ class MyLinkedList {
 
 // Main class
 public class LevelA {
-    public static int Reverse(int data){
-
-    }
-
+    
     public static void main(String[] args) {
         MyLinkedList list = new MyLinkedList();
 
