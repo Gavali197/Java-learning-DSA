@@ -79,12 +79,12 @@ class MyLinkedList {
     }
 
     //build own linkelist function
-    int sum(){
+    int sum() {
         int total = 0;
         Node currNode = head;
         while (currNode != null) {
             total += currNode.data;
-            currNode = currNode.next;    
+            currNode = currNode.next;
         }
         return total;
     }
@@ -119,5 +119,7 @@ public class LevelA {
         list.printList();  // Output: 1->2->3->4->null
         boolean find = list.find(2);
         System.out.println(find);
+        //use for calculate data of nodes
+        System.out.println(list.sum());
     }
 }
