@@ -78,6 +78,17 @@ class MyLinkedList {
         head = prev;
     }
 
+    //build own linkelist function
+    int sum(){
+        int total = 0;
+        Node currNode = head;
+        while (currNode != null) {
+            total += currNode.data;
+            currNode = currNode.next;    
+        }
+        return total;
+    }
+
     // Print linked list
     public void printList() {
         Node currNode = head;
