@@ -61,8 +61,8 @@ class MyLinkedList {
     }
 
     //USE FOR REVERSE LINKELIST
-    public void Reverse(){
-        if(head == null || head.next == null){
+    public void Reverse() {
+        if (head == null || head.next == null) {
             return;
         }
         Node prev = head;
@@ -78,7 +78,6 @@ class MyLinkedList {
         head = prev;
     }
 
-
     // Print linked list
     public void printList() {
         Node currNode = head;
@@ -92,7 +91,7 @@ class MyLinkedList {
 
 // Main class
 public class LevelA {
-    
+
     public static void main(String[] args) {
         MyLinkedList list = new MyLinkedList();
 
@@ -109,7 +108,5 @@ public class LevelA {
         list.printList();  // Output: 1->2->3->4->null
         boolean find = list.find(2);
         System.out.println(find);
-        int numss = list.Reverse();
-        System.out.println(numss);
     }
 }
