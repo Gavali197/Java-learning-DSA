@@ -63,15 +63,7 @@ class linked{
         
     }
 
-    public void Print(){
-        node currNode = head;
-        while (currNode != null) {
-            System.out.print(currNode.data + " -> ");
-            currNode = currNode.next;
-        }
-        System.out.println("null");
-    }
-
+   
 }
 
 class LinkedList{
